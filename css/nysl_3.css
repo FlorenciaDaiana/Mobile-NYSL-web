@@ -134,7 +134,18 @@ a:active {
   width: 100%;
   text-align: center;
   z-index: 2;
+  font-size: 5v;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  color: rgb(255, 255, 255); 
 }
+
+#bodycontentRegistration {
+  padding: 1em; 
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
 #bodycontent h1{
 
   font-weight: bold;
@@ -602,6 +613,16 @@ Animation keyframes
     color: rgb(255, 255, 255); 
   }
 
+  #bodycontent{
+    padding: 1em; 
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    font-size: 5vw;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+  }
+
   .open-overlay {
     position: absolute;
     z-index: 100;
@@ -643,6 +664,15 @@ Animation keyframes
     cursor: pointer;
   }
 
+  #bodycontent{
+    padding: 1em; 
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    font-size: 5v;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+  }
 
 }
 

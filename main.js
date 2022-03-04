@@ -663,3 +663,4 @@ function imprimirDatos (partido,indice) {
 }
 
 imprimirDatos(meses[0].teams,0)
+
